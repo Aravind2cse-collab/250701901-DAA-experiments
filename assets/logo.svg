@@ -1,0 +1,38 @@
+<svg width="920" height="220" viewBox="0 0 920 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rajalakshmi Engineering College">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0a0f1b"/>
+      <stop offset="100%" stop-color="#0d1320"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="0" x2="1">
+      <stop offset="0%" stop-color="#6a1b8c"/>
+      <stop offset="100%" stop-color="#4d0d6d"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f6d36d"/>
+      <stop offset="100%" stop-color="#d08d00"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="920" height="220" fill="url(#bg)"/>
+
+  <g transform="translate(18 18)">
+    <rect x="0" y="0" width="160" height="180" rx="18" fill="url(#purple)" stroke="#d9a329" stroke-width="8"/>
+
+    <path d="M58 38 L58 134 L73 134 L73 92 L98 92 Q120 92 125 82 Q130 72 124 64 Q118 55 99 55 L73 55 L73 38 Z" fill="#f3d266"/>
+    <path d="M58 38 L58 134 L73 134 L73 92 L98 92 Q120 92 125 82 Q130 72 124 64 Q118 55 99 55 L73 55 L73 38 Z" fill="url(#gold)" opacity="0.95"/>
+
+    <path d="M55 28 C75 8, 92 10, 108 18 C99 19, 91 23, 85 31 C94 36, 99 42, 100 48 C86 44, 68 54, 55 28 Z" fill="#f3d266"/>
+    <path d="M66 58 L88 58" stroke="#f8f6ea" stroke-width="4" stroke-linecap="round"/>
+    <path d="M58 118 L116 118" stroke="#f8f6ea" stroke-width="5" stroke-linecap="round"/>
+    <path d="M67 48 L67 134" stroke="#f9f2d8" stroke-width="5" stroke-linecap="round"/>
+    <path d="M78 100 L102 100" stroke="#f9f2d8" stroke-width="5" stroke-linecap="round"/>
+    <path d="M93 58 L108 70 L101 93" stroke="#f8f6ea" stroke-width="5" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <g transform="translate(200 70)">
+    <text x="0" y="52" font-size="48" font-weight="700" fill="#d8a9ff" font-family="Verdana, Arial, sans-serif">RAJALAKSHMI</text>
+    <text x="0" y="110" font-size="48" font-weight="700" fill="#d8a9ff" font-family="Verdana, Arial, sans-serif">ENGINEERING</text>
+    <text x="0" y="168" font-size="48" font-weight="700" fill="#d8a9ff" font-family="Verdana, Arial, sans-serif">COLLEGE</text>
+  </g>
+</svg>
