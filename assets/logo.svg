@@ -1,38 +1,41 @@
-<svg width="920" height="220" viewBox="0 0 920 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rajalakshmi Engineering College">
+<svg width="960" height="220" viewBox="0 0 960 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rajalakshmi Engineering College logo">
   <defs>
     <linearGradient id="bg" x1="0" x2="1">
-      <stop offset="0%" stop-color="#0a0f1b"/>
-      <stop offset="100%" stop-color="#0d1320"/>
+      <stop offset="0%" stop-color="#09131f"/>
+      <stop offset="100%" stop-color="#0d1724"/>
     </linearGradient>
-    <linearGradient id="purple" x1="0" x2="1">
-      <stop offset="0%" stop-color="#6a1b8c"/>
-      <stop offset="100%" stop-color="#4d0d6d"/>
+    <linearGradient id="panel" x1="0" x2="1">
+      <stop offset="0%" stop-color="#5a127b"/>
+      <stop offset="100%" stop-color="#4a0c68"/>
     </linearGradient>
     <linearGradient id="gold" x1="0" x2="1">
-      <stop offset="0%" stop-color="#f6d36d"/>
-      <stop offset="100%" stop-color="#d08d00"/>
+      <stop offset="0%" stop-color="#f9d977"/>
+      <stop offset="100%" stop-color="#d19400"/>
     </linearGradient>
+    <filter id="softGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#d9a928" flood-opacity="0.25"/>
+    </filter>
   </defs>
 
-  <rect width="920" height="220" fill="url(#bg)"/>
+  <rect width="960" height="220" fill="url(#bg)"/>
 
-  <g transform="translate(18 18)">
-    <rect x="0" y="0" width="160" height="180" rx="18" fill="url(#purple)" stroke="#d9a329" stroke-width="8"/>
+  <g transform="translate(18 18)" filter="url(#softGlow)">
+    <rect x="0" y="0" width="160" height="180" rx="18" fill="url(#panel)" stroke="#d7a12b" stroke-width="7"/>
 
-    <path d="M58 38 L58 134 L73 134 L73 92 L98 92 Q120 92 125 82 Q130 72 124 64 Q118 55 99 55 L73 55 L73 38 Z" fill="#f3d266"/>
-    <path d="M58 38 L58 134 L73 134 L73 92 L98 92 Q120 92 125 82 Q130 72 124 64 Q118 55 99 55 L73 55 L73 38 Z" fill="url(#gold)" opacity="0.95"/>
+    <path d="M62 30 L62 136 L72 136 L72 96 L98 96 Q118 96 128 86 Q137 77 137 64 Q137 51 128 41 Q121 33 105 31 L72 30 Z" fill="#f2d981"/>
+    <path d="M62 30 L62 136 L72 136 L72 96 L98 96 Q118 96 128 86 Q137 77 137 64 Q137 51 128 41 Q121 33 105 31 L72 30 Z" fill="url(#gold)" opacity="0.96"/>
 
-    <path d="M55 28 C75 8, 92 10, 108 18 C99 19, 91 23, 85 31 C94 36, 99 42, 100 48 C86 44, 68 54, 55 28 Z" fill="#f3d266"/>
-    <path d="M66 58 L88 58" stroke="#f8f6ea" stroke-width="4" stroke-linecap="round"/>
-    <path d="M58 118 L116 118" stroke="#f8f6ea" stroke-width="5" stroke-linecap="round"/>
-    <path d="M67 48 L67 134" stroke="#f9f2d8" stroke-width="5" stroke-linecap="round"/>
-    <path d="M78 100 L102 100" stroke="#f9f2d8" stroke-width="5" stroke-linecap="round"/>
-    <path d="M93 58 L108 70 L101 93" stroke="#f8f6ea" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <path d="M65 35 C76 19, 88 16, 98 18 C93 20, 89 25, 85 32 C95 36, 101 44, 103 52 C89 48, 74 49, 65 35 Z" fill="#f9d777"/>
+    <path d="M75 54 L112 54" stroke="#fff7d9" stroke-width="5" stroke-linecap="round"/>
+    <path d="M74 66 L74 136" stroke="#fff7d9" stroke-width="5" stroke-linecap="round"/>
+    <path d="M78 100 L102 100" stroke="#fff7d9" stroke-width="5" stroke-linecap="round"/>
+    <path d="M78 118 L116 118" stroke="#fff7d9" stroke-width="5" stroke-linecap="round"/>
+    <path d="M99 54 L118 78 L103 103" stroke="#fff7d9" stroke-width="5" stroke-linecap="round" fill="none"/>
   </g>
 
-  <g transform="translate(200 70)">
-    <text x="0" y="52" font-size="48" font-weight="700" fill="#d8a9ff" font-family="Verdana, Arial, sans-serif">RAJALAKSHMI</text>
-    <text x="0" y="110" font-size="48" font-weight="700" fill="#d8a9ff" font-family="Verdana, Arial, sans-serif">ENGINEERING</text>
-    <text x="0" y="168" font-size="48" font-weight="700" fill="#d8a9ff" font-family="Verdana, Arial, sans-serif">COLLEGE</text>
+  <g transform="translate(220 58)">
+    <text x="0" y="42" font-size="46" font-weight="700" fill="#d1a8ff" font-family="Verdana, Arial, sans-serif">RAJALAKSHMI</text>
+    <text x="0" y="98" font-size="46" font-weight="700" fill="#d1a8ff" font-family="Verdana, Arial, sans-serif">ENGINEERING</text>
+    <text x="0" y="154" font-size="46" font-weight="700" fill="#d1a8ff" font-family="Verdana, Arial, sans-serif">COLLEGE</text>
   </g>
 </svg>
