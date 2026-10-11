@@ -1,13 +1,12 @@
-# Design and Analysis of Algorithms
-
 <div align="center">
-  <img src="assets/logo.svg" alt="Rajalakshmi Engineering College" width="720" />
-</div>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/logo.png">
+    <img src="assets/logo.png" alt="Rajalakshmi Engineering College" width="360">
+  </picture>
 
-<h1 align="center">Design and Analysis of Algorithms</h1>
-
-<div align="center">
-  <h2>Rajalakshmi Engineering College</h2>
+  <h1>Design and Analysis of Algorithms</h1>
+  <p><strong>Department of Computer Science and Engineering</strong></p>
 </div>
 
 <div align="center">
@@ -56,6 +55,10 @@ This repository is maintained for the Design and Analysis of Algorithms course p
 
 ---
 
-<p align="center">
-  <img src="assets/logo.svg" alt="Rajalakshmi Engineering College" width="320" />
-</p>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/logo.png">
+    <img src="assets/logo.png" alt="Rajalakshmi Engineering College" width="220">
+  </picture>
+</div>
