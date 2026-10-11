@@ -16,12 +16,8 @@
       <td>Aravind Rajesh</td>
     </tr>
     <tr>
-      <td><strong>University Register Number:</strong></td>
-      <td>2116250701901</td>
-    </tr>
-    <tr>
       <td><strong>Register Number:</strong></td>
-      <td>250701901</td>
+      <td>2116250701901</td>
     </tr>
     <tr>
       <td><strong>Department:</strong></td>
